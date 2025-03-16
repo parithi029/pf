@@ -1,0 +1,193 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    }
+
+.hero h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+#cloud2{
+    position: absolute;
+    left: 150px;
+    bottom: 350px;
+}
+
+#cloud1{
+    position: absolute;
+    right: 150px;
+    bottom: 620px;
+}
+.panda{
+    width: 400px;
+}
+
+.clouds{
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.pfp{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.yo{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.abme{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1 rem;
+    font-weight: normal;
+    padding-bottom: 50px;
+    width: 30%;
+    margin: auto;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+.skills{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    margin: 50px auto;
+}
+
+.skls{
+    display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        width: 50%;
+        margin: 100px auto 50px auto;
+        text-align: left;
+        row-gap: 3rem;
+}
+
+.skills h2{
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.img1{
+    display: block;
+    margin-right: 30px;
+}
+.img2{
+    display: block;
+    margin-right: 30px;
+}
+
+.contact{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    margin: 100px auto;
+}
+
+.contact h1{
+    font-size: 2.5rem;
+}
+
+.contact p{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.contact button{
+    background-image: linear-gradient(to bottom, #11aaf1, #837cff);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    background-image: linear-gradient(to bottom, #837cff, #11aaf1);
+}
+
+.footer{
+    background-color: rgb(0, 124, 124);
+    height: 200px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.links img{
+    filter: invert(100%);
+    width: 40px;
+    margin: 30px 20px 0 20px;
+}
+.footer p{
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    
+    .panda{
+        width: 350px;
+    }
+
+    #cloud1{
+        right: 150px;
+        bottom: 500px;
+    }
+    #cloud2{
+        left: 150px;
+        bottom: 325px;
+        width: 100px;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+    .abme{
+        width: 80%;
+    }
+    .skls{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .img1, .img2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .heads, .heads2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .contact p{
+        width: 80%;
+    }
+}
